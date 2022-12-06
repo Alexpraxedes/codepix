@@ -2,7 +2,7 @@ package repository
 
 import (
 	"fmt"
-	"github.com/Alexpraxedes/codepix-go/domain/model"
+	"github.com/Alexpraxedes/codepix/domain/model"
 	"github.com/jinzhu/gorm"
 )
 

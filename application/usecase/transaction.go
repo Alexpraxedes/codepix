@@ -2,7 +2,7 @@ package usecase
 
 import (
 	"errors"
-	"github.com/Alexpraxedes/codepix-go/domain/model"
+	"github.com/Alexpraxedes/codepix/domain/model"
 	"log"
 )
 
@@ -23,7 +23,7 @@ func (t *TransactionUseCase) Register(accountId string, amount float64, pixKeyto
 		return nil, err
 	}
 
-	transaction, err := model.NewTransaction(account, amount, pixKey, description)
+	transaction, err := model.NewTransaction(account, amount, pixKey, id)
 	if err != nil {
 		return nil, err
 	}
