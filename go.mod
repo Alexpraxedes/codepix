@@ -1,4 +1,4 @@
-module github.com/Alexpraxedes/codepix-go
+module github.com/Alexpraxedes/codepix
 
 go 1.15
 
@@ -9,5 +9,7 @@ require (
 	github.com/lib/pq v1.10.7
 	github.com/satori/go.uuid v1.2.0
 	github.com/stretchr/testify v1.8.1
+	google.golang.org/grpc v1.51.0
+	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.2.0 // indirect
 	gorm.io/driver/sqlite v1.4.3
 )
